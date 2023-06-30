@@ -1,0 +1,147 @@
+/* Universal selector, selects all elements on the page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* The `nav` selector is targeting a navigation element in the HTML code. The CSS properties inside the
+curly braces are setting the styling for that navigation element. */
+nav {
+  height: 80px;
+  background: rgb(25, 25, 25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+  color: #d6d7cd;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem;
+  transition: color .5s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.logo:hover {
+  box-shadow: inset 200px 0 0 0 #c0bfbf;
+  font-size: 2rem;
+  color: #191919;
+}
+
+.msg {
+  color: #b06503;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffffab;
+  padding: 0 1.5rem;
+}
+
+nav a:hover {
+  color: #b06503;
+  text-decoration: line-through;
+}
+
+.hero { 
+	background: linear-gradient(-45deg, #ef9503, #d26506, #e0b312);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 95vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0rem 2rem;
+}
+
+.column-left h1 {
+  margin-bottom: 1rem;
+  font-size: 36px;
+  color: #cecece;
+  text-decoration: underline;
+}
+
+.column-left p {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #cececec8;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  color: #fdfdfd;
+  background: #000;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.8s ease-in-out;
+}
+
+.column-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.hero-image {
+  width: 75%;
+  height: 75%;
+  animation-name: spin;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+/* The animation rotate an element from 0 to 360 degrees, creating a swirl effect. */
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+
+/*This animation is used to create a gradient effect on the background of the `.hero` class.*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* It's a CSS media query that targets screens with a maximum width of 768 pixels. */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+}
