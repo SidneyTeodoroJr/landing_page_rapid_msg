@@ -1,49 +1,51 @@
-# landing_page_rapid_msg 
+# Landing Page RapidMsg
 
-Bem-vindo à documentação oficial do repositório Landing Page Rapid Msg. Neste documento, você encontrará informações importantes sobre o projeto, sua estrutura, funcionalidades e como utilizá-lo.
+Welcome to the official Landing Page Rapid Msg repository documentation. In this document, you will find important information about the project, its structure, functionalities and how to use it.
 
-# Descrição
+# Description
  
-O repositório **Landing Page Rapid Msg** é um projeto de código aberto que visa fornecer uma estrutura básica para a criação rápida de páginas de destino (landing pages). Ele foi desenvolvido por Sidney Teodoro Jr. e pode ser usado como ponto de partida para a criação de páginas de destino eficazes e responsivas.
+The **Landing Page Rapid Msg** repository is an open source project that aims to provide a basic framework for quickly creating landing pages. It was developed by Sidney Teodoro Jr. and can be used as a starting point for creating effective and responsive landing pages.
 
-## Funcionalidades
+## Functionalities
 
-O repositório inclui as seguintes funcionalidades:
+The repository includes the following features:
 
-1. **Layout Responsivo**: A página de destino é projetada para se adaptar a diferentes tamanhos de tela, oferecendo uma experiência de usuário consistente em dispositivos móveis, tablets e desktops.
+1. **Responsive Layout**: The landing page is designed to adapt to different screen sizes, offering a consistent user experience across mobile devices, tablets and desktops.
 
-2. **Seções Personalizáveis**: A estrutura da página é modular e permite personalizar facilmente as seções conforme necessário. Você pode adicionar, remover ou reorganizar as seções para atender aos requisitos específicos do seu projeto.
+2. **Customizable Sections**: The page structure is modular and allows you to easily customize sections as needed. You can add, remove, or rearrange sections to meet your project's specific requirements.
 
-3. **Personalização de Conteúdo**: É possível personalizar facilmente o conteúdo da página, como texto, imagens e botões, para adequá-la à sua marca e mensagem específica.
+3. **Content Customization**: You can easily customize page content such as text, images and buttons to suit your specific brand and message.
 
-## Como usar
+## How to use
 
-Para utilizar o repositório **Landing Page Rapid Msg**, siga as etapas abaixo:
+To use the **Landing Page Rapid Msg** repository, follow the steps below:
 
-1. Faça um fork do repositório para a sua conta do GitHub.
+1. Fork the repository to your GitHub account.
 
-2. Clone o repositório para o seu ambiente local usando o seguinte comando:
-
+2. Clone the repository to your local environment using the following command:
+   
    ```shell
    git clone https://github.com/SEU_USUARIO_GITHUB/landing_page_rapid_msg.git
-Personalize o conteúdo da página de destino:
+   
+## Customize landing page content:
 
-Abra o arquivo index.html em um editor de código.
-Edite o texto, substitua as imagens e ajuste os links conforme necessário para refletir a sua mensagem e marca.
-Personalize as seções da página:
+Open the index.html file in a code editor.
+Edit text, replace images and adjust links as needed to reflect your message and brand.
+Customize page sections:
 
-A estrutura básica da página está organizada em seções.
-Você pode adicionar, remover ou modificar as seções conforme necessário para atender aos seus requisitos.
+The basic structure of the page is organized into sections.
+You can add, remove, or modify sections as needed to meet your requirements.
 
-## Adicione ou modifique os estilos:
+## Add or modify styles:
 
-Os estilos CSS da página estão localizados no arquivo styles.css.
-Personalize as classes de estilo existentes ou adicione novas classes para atender às suas necessidades de design.
+The page's CSS styles are located in the styles.css file.
+Customize existing style classes or add new classes to suit your design needs.
 
-## Teste a página de destino:
+## Test landing page:
 
-Abra o arquivo index.html em um navegador da web para visualizar a página de destino.
-Verifique se a página é exibida corretamente.
+Open the index.html file in a web browser to view the target page.
+Check that the page displays correctly.
+
 ##
 </br>
 
