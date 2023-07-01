@@ -1,12 +1,23 @@
-# Landing Page RapidMsg
+<h2 align="center">Landing Page RapidMsg</h2>
+</br>
+
+<div align="center">
+<a href="https://github.com/SidneyTeodoroJr" target="_blank">
+<img src="rapid_msg.png" alt="gradient">
+</a>
+</div>
+</br>
+</br>
 
 Welcome to the official Landing Page Rapid Msg repository documentation. In this document, you will find important information about the project, its structure, functionalities and how to use it.
 
 # Description
- 
+
+</br>
 The **Landing Page Rapid Msg** repository is an open source project that aims to provide a basic framework for quickly creating landing pages. It was developed by Sidney Teodoro Jr. and can be used as a starting point for creating effective and responsive landing pages.
 
 ## Functionalities
+</br>
 
 The repository includes the following features:
 
@@ -17,6 +28,7 @@ The repository includes the following features:
 3. **Content Customization**: You can easily customize page content such as text, images and buttons to suit your specific brand and message.
 
 ## How to use
+</br>
 
 To use the **Landing Page Rapid Msg** repository, follow the steps below:
 
@@ -28,6 +40,7 @@ To use the **Landing Page Rapid Msg** repository, follow the steps below:
    git clone https://github.com/SEU_USUARIO_GITHUB/landing_page_rapid_msg.git
    
 ## Customize landing page content:
+</br>
 
 Open the index.html file in a code editor.
 Edit text, replace images and adjust links as needed to reflect your message and brand.
@@ -37,11 +50,13 @@ The basic structure of the page is organized into sections.
 You can add, remove, or modify sections as needed to meet your requirements.
 
 ## Add or modify styles:
+</br>
 
 The page's CSS styles are located in the styles.css file.
 Customize existing style classes or add new classes to suit your design needs.
 
 ## Test landing page:
+</br>
 
 Open the index.html file in a web browser to view the target page.
 Check that the page displays correctly.
