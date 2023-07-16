@@ -2,7 +2,7 @@
 </br>
 
 <div align="center">
-<a href="https://rapid-msg.netlify.app/" target="_blank">
+<a href="https://sidneyteodorojr.github.io/landing_page_rapid_msg/" target="_blank">
 <img src="rapid_msg.png" alt="gradient">
 </a>
 </div>
@@ -11,7 +11,7 @@
 
 Welcome to the official Landing Page Rapid Msg repository documentation. In this document, you will find important information about the project, its structure, functionalities and how to use it.
 </br>
-<h3 align="left"><a href="https://rapid-msg.netlify.app/">Live demo>></a></h3>
+<h3 align="left"><a href="https://sidneyteodorojr.github.io/landing_page_rapid_msg/">Live demo>></a></h3>
 </br>
 
 # Description
