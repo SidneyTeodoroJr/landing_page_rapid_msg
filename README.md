@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="https://sidneyteodorojr.github.io/landing_page_rapid_msg/" target="_blank">
-<img src="rapid_msg.png" alt="gradient">
+<img src="rapid_msg.png" alt="Landing Page">
 </a>
 </div>
 </br>
